@@ -12,5 +12,9 @@ export class DashboardComponent implements OnInit {
   ngOnInit(): void {
 	  console.log('VAMOS A INICIALIZAR EL REPOSITORIO');
   }
+  
+  setMessage(){
+	  console.log('Se agrega un mensaje a la rama develop');
+  }
 
 }
